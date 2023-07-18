@@ -1,0 +1,254 @@
+#top {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: solid 5px #80c6be;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #container_top {
+    margin-left: 1200px;
+  }
+  
+  .top_nav {
+    font-size: 16px;
+    text-decoration: none;
+    color: #4d4d4d;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+  }
+  
+  .top_nav:hover {
+    color: orange;
+  }
+  
+  #navbar {
+    width: 100%;
+    background-color: #ed7422;
+    height: 92px;
+  }
+  
+  .navbar-brand {
+    padding-right: 400px;
+  }
+  
+  .navbar-nav {
+    color: white;
+  }
+  
+  .nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .nav-item:hover {
+    background-color: white !important;
+  }
+  
+  #nav-item_catering:hover{
+    background-color: white;
+  
+  }
+  
+  #nav_item_searchbtn:hover{
+    background-color: #4d4d4d !important;
+  }
+
+#BgIMG_headingTXT{
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 250px;
+}
+
+#Catering-topDiv{
+
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#cateringTop-selectBTN{
+    border: 3px white solid;
+    background-color: #ed7422;
+    padding:20px 60px ;
+    color: #fff;
+    font-weight: 700;
+    margin-left:650px;
+    margin-top: 45px;
+}
+#cateringTop-selectBTN:hover{
+    background-color:#80c6be;    
+}
+
+
+.menu_item {
+    text-decoration: none;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: Montserrat, sans-serif;
+    
+    
+  }
+  #divv:hover {
+    background-color: #ed7422;
+    color: white !important;
+  }
+  .menu_item:hover,
+  .menu_itemlink:hover {
+    background-color: #ed7422;
+    color: white !important;
+  } 
+  
+   .menu_itemlink{
+      text-decoration: none;
+      color:#4d4d4d ; 
+  } 
+  
+  #nav_menu {
+
+    height: 110px;
+    background-color: #e9e9e9;
+    margin-top: 30px;
+  }
+
+#Catering_topTXT{
+  padding-bottom: 20px;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: #ed7422 2px solid;
+  width:240px;
+  margin-left: 680px;
+  color: #4d4d4d;
+  font-weight: 400;
+}
+
+#HostFiestal_TXT{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  color:#4d4d4d ;
+
+}
+
+#Detail_Fiestal{
+  text-align: center;
+  color: #2d2c2c;
+  font-size: 25px;
+  font-weight: 400;
+}
+#catering_nutritionBTN{
+  margin-left: 650px;
+  margin-top: 40px;
+  padding: 20px 60px;
+  background-color: white;
+  color:#ed7422;
+  font-weight: 700;
+  border: 3px solid #ed7422;
+
+}
+#catering_nutritionBTN:hover{
+  background-color: #ed7422;
+  color: white;
+
+}
+
+.catering_ImgDivTXT{
+  font-size: 40px;
+  font-weight: 400;
+  color: #3e3d3d;
+  border-right: #ed7422 3px solid ;
+  margin-right: 160px;
+  
+}
+
+.catering_ImgDIvBTN{
+  color: #ed7422;
+  font-size:15px;
+  font-weight: 600;
+  background-color: white;
+  border: 3px solid #ed7422;
+  padding: 20px 50px;
+  margin-right: 200px;
+}
+
+.catering_ImgDIvBTN:hover{
+  background-color: #ed7422;
+  color: white;
+}
+
+#Catering_reqFormTLine{
+  color: #4d4d4d;
+  font-size: 28px;
+  border-bottom: 2px solid #ed7422;
+  padding-bottom: 15px;
+  width: 780px;
+  font-weight: 400;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+#Catering_reqFormHeading{
+  color: #4d4d4d;
+  font-size: 80px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#Catering_reqFormPara{
+  color: #4d4d4d;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+
+input[type=text] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#Cities_dropdown{
+  width: 90%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.city{
+  width: 90%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+
+#message input{
+  width: 100%;
+  height: 6000px;
+  margin: 8px 0;
+}
+
+input[type=submit]{
+  color: white;
+  background-color: #ed7422;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 35px;
+  border: none;
+  margin-top: -1000px;
+  margin-left: 350px;
+
+}

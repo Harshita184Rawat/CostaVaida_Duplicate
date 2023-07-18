@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresh Mexican Food Hot Off The Grill | Costa Vida</title>
-    <link rel="shortcut icon" href="https://o.remove.bg/downloads/faa579bd-746d-4671-ae3c-9323925ede24/emeWhsrh_400x400-removebg-preview.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./imgs/logo-f.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <!-- To link bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -13,6 +13,8 @@
     
 </head>
 <body>
+    
+
     <section id="top">
         <div id="container_top">
         <a class="top_nav" href="#">CAREERS</a>
@@ -26,25 +28,25 @@
     <section id="nav_bar">
         <nav id="navbar" class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand ms-5" href="#" ><img src="/nav_logo.png" alt="img"></a>
+              <a class="navbar-brand ms-5" href="#" ><img src="imgs/nav_logo.png" height="80px" alt="img"></a>
               <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto   ms-5">
                   <li class="nav-item" style="background-color: white;">
-                    <a class="nav-link active" aria-current="page" href="#">ORDER NOW</a>
+                    <a class="nav-link active" aria-current="page" href="./orderNow.html">ORDER NOW</a>
                   </li>
-                  <li class="nav-item" style="background-color: #ffc107;" >
-                    <a class="nav-link" href="#">CATERING</a>
+                  <li class="nav-item" id ="nav-item_catering" style="background-color: #ffc107; margin-top:13px; padding-top:15px; margin-bottom:13px; " >
+                    <a class="nav-link" href="./catering.html">CATERING</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">GIFT CARDS</a>
+                    <a class="nav-link" href="./giftCards.html">GIFT CARDS</a>
                   </li>
                   
                   <li class="nav-item">
                     <a class="nav-link" href="#">REWARDS</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="/imgs/search_icon.svg" alt="search_icon"></a>
+                  <li class="nav-item" id="nav_item_searchbtn">
+                    <a class="nav-link" href="./Search.html"><img src="/imgs/search_icon.svg" alt="search_icon"></a>
                 </li>
 
                 </ul>
@@ -55,7 +57,7 @@
     </section>
 
 
-    <img  id="img_Home_top" src="https://scontent.fjai8-1.fna.fbcdn.net/v/t39.30808-6/229724172_576049990443236_5186727995654935497_n.jpg?stp=dst-jpg_s960x960&_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=fxsc1S5v4b4AX9QYFU6&_nc_ht=scontent.fjai8-1.fna&oh=00_AfBiXd1loqoUybTJ6TV3L_89RkmSnSjqwAfUwhHuBqMzbw&oe=649EC069" alt="" width="100%" height="400px">
+    <img  id="img_Home_top" src="./imgs/COSTA_vida_top_slider.png" alt="" width="100%" height="500px">
    
    
     <section >
@@ -247,12 +249,12 @@
 
     </div>
      
-    <section > 
-      <div id="fast_pass" class="container">
-        <h1>FAST PASS</h1>
+    <section> 
+      <div id="fast_pass" class="red_pass" width="100%">
+        <h1 style="border-bottom: 1px solid white ; padding-bottom:30px ; width:1040px; color:white;font-size:30px;">FAST PASS</h1>
         <div class="row align-items-start">
-          <div class="col" style="padding-top: 40px; color:white ; height:10px;" >
-            <hr>
+          <div class="col"  >
+            
           </div>
           <div class="col">
             <div id="pickup_btndiv">
@@ -260,11 +262,190 @@
             </div>
           </div>
         </div>
+        <h1 style="color: white; font-size:80px; font-family:Georgia, 'Times New Roman', Times, serif;font-weight:550;">There's no line online .</h1>
+        <p style="color: white; font-weight:200px; font-size:25px; word-spacing:3px; padding-bottom:60px; margin-bottom:100px;">Order Now for VIP Pick Up in store.</p>
       </div>
       
+    </section>
 
+    <section style="background-image: url(./imgs/mobile_background.jpg) ; background-position:right; background-repeat:no-repeat; background: padding left 1000px;">
+      <h2 id="get_app">GET OUT APP</h2>
+      <h1 id="receipt_line">your receipt is money.<br>Use it or loose it.</h1>
+      <h3 id="scan_line">Scan receipt using our app within 24 hours.</h3>
+      <button class="app_btn" style="padding:0px; margin-right:15px;"><a href="#"><img src="./imgs/app-store_btn.png" alt="APP Store"></a></button>
+      <button class="app_btn" style="padding:0px;"><a href="#"><img src="./imgs/google-play_btn.png" alt="Play Store"></a></button>
+      <br><br><br>
+      <p class="app_feature"><img src="/imgs/icon-checklist.png" alt="">&nbsp;&nbsp;&nbsp; PLACE ORDERS</p>
+      <p class="app_feature"><img src="/imgs/icon-route.png" alt="">&nbsp;&nbsp;&nbsp; SKIP THE LINE</p>
+      <p class="app_feature"><img src="/imgs/icon-star.png" alt="">&nbsp;&nbsp;&nbsp; EARN FREE FOOD</p>
+    </section>
+
+    <section >
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./imgs/carousel_img_1.png" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./imgs/carousel_img_2.png" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/carousel_img_3.png" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="./imgs/carousel_img_4.png" class="d-block w-100" alt="...">
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     </section>
+
+    <section id="Expand_section" style="margin-top: 100px; padding-bottom:70px; border-bottom:2px solid #80c6be;">
+      <h3 id="Fresh_section_l1">NO EFFORT OR EXPENSE SPARED</h2>
+      <h1 id="Fresh_section_l2" style="margin-bottom: 50px;">A Fresh Spin On Fresh Mex</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./imgs/Expand_block_img1.jpg" alt="" class="Expand_block_img">
+          </div>
+          <div class="col" class="Expand_block_txtDiv">
+            <h2 class="Expand_block_heading">100% Pronounceable Ingredients</h2>
+            No weird words, no nonsense. Just naturally whole & wholesome, farm-to-fork fresh ingredients (that most two-year-olds can say).
+          </div>
+          <div class="col">
+            <img src="./imgs/Expand_block_img2.jpg" alt="" class="Expand_block_img">
+          </div>
+          <div class="col" class="Expand_block_txtDiv">
+            <h2 class="Expand_block_heading">No Food Comas</h2>
+            Every ingredient in our balanced meals is served in perfectly-digestible 2 and 4-ounce portions. That way, you feel good after you eat…not ready for a siesta.
+          </div>
+        </div>
+    
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col" class="Expand_block_txtDiv">
+            <h2 class="Expand_block_heading">Get Smothered In Love, (Free)</h2>
+            Smothering is the wave (pun intended). Smother your burrito or enchiladas in one of our delicious sauces free of charge!
+          </div>
+          <div class="col">
+            <img src="./imgs/Exapand_block_img3.jpg" alt="" class="Expand_block_img">
+          </div>
+          <div class="col" class="Expand_block_txtDiv">
+            <h2 class="Expand_block_heading">Every Ingredient Has A Story</h2>
+            Our raw ingredients are carefully curated, because scrupulous sourcing ensures impeccable quality. (In other words, we pretty much “hand pick” everything and buy only the best.)
+          </div>
+          <div class="col">
+            <img src="./imgs/Every_IngridHasA_story.jpg" alt="" class="Expand_block_img">
+          </div>
+        </div>
+
+      </div>
+      
+      <!--Expand BUtton-->
+      <button id="Expand_btn"><b>EXPAND ></b></button>
+
+      <section id="Expand_block_hidden" style="display: none;">
+
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="./imgs/fresh_spin_FlourPwr.jpg" alt="" class="Expand_block_img">
+              </div>
+              <div class="col" class="Expand_block_txtDiv">
+                <h2 class="Expand_block_heading">Flour Power</h2>
+                Our flour tortillas are made with high-quality malted flour (for perfect flavor & texture). And we use palm oil rather than lard (for our vegetarian friends).
+              </div>
+              <div class="col">
+                <img src="./imgs/fresh_spin_PerfPeppers.jpg" alt="" class="Expand_block_img">
+              </div>
+              <div class="col" class="Expand_block_txtDiv">
+                <h2 class="Expand_block_heading">Perfect Peppers</h2>
+                Our crisp, clean, lush-green chiles are Mother Nature’s finest. Warm not hot and farm fresh from where they grow best—Hatch, New Mexico.
+              </div>
+            </div>
+        
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col" class="Expand_block_txtDiv">
+                <h2 class="Expand_block_heading">Steakhouse Steak</h2>
+                Responsibly sourced from the same Midwestern family ranch that 9 of the top 10 US steakhouses go to.
+              </div>
+              <div class="col">
+                <img src="./imgs/fresh_spin_premium_steak.jpg" alt="" class="Expand_block_img">
+              </div>
+              <div class="col" class="Expand_block_txtDiv">
+                <h2 class="Expand_block_heading">Avocado Bravado</h2>
+                We have to brag about our nutty-creamy avocados from Michoacán, Mexico. Its perfect subtropical climate and long growing season produce phenomenal flavor and texture.
+              </div>
+              <div class="col">
+                <img src="./imgs/fresh_spin_AvoBravado.jpg" alt="" class="Expand_block_img">
+              </div>
+            </div>
+    
+          </div>
+
+        </section>
+
+    </section>
+
+      <br><br>
+
+    <section id="main_footer" style="margin-top:50px">
+
+      <div>
+        <div class="row">
+          <div class="col align-items-start"  style="width: 50%;">
+            One of three columns
+          </div>
+          <div class="col align-items-end">
+            One of three columns
+          </div>
+        </div>
+      </div>
+      
+    </section>
+  
+  <!-- Java script -->
+  <script>
+
+      const btn = document.getElementById('Expand_btn');
+
+      btn.addEventListener('click', () => {
+      //hide button
+      btn.style.display = 'none';
+
+      //show div
+      const box = document.getElementById('Expand_block_hidden');
+      box.style.display = 'block';
+});
+
+     // fetch('http://localhost:3002/posts')
+     //  .then(res=>res.json())
+     // .then(json=>console.log(json))
+    </script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

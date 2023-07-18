@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costa Vida</title>
+    <link rel="shortcut icon" href="./imgs/logo-f.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="stylesheet" href="orderNow.css">
+</head>
+<body>
+
+    <section id="top">
+        <div id="container_top">
+        <a class="top_nav" href="#">CAREERS</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a class="top_nav" href="#">MERACHANISE</a>
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        <a class="top_nav" href="#">STORIES</a>
+        </div>   
+    </section>
+
+    <section id="nav_bar" style="margin-bottom: 50px;">
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-5" href="./index.html" ><img src="imgs/nav_logo.png" height="80px" alt="img"></a>
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto   ms-5">
+                  <li class="nav-item" style="background-color: white;">
+                    <a class="nav-link active" aria-current="page" href="./orderNow.html">ORDER NOW</a>
+                  </li>
+                  <li class="nav-item" id ="nav-item_catering" style="background-color: #ffc107; margin-top:13px; padding-top:15px; margin-bottom:13px; " >
+                    <a class="nav-link" href="./catering.html">CATERING</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./giftCards.html">GIFT CARDS</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">REWARDS</a>
+                  </li>
+                  <li class="nav-item" id="nav_item_searchbtn">
+                    <a class="nav-link" href="./Search.html"><img src="/imgs/search_icon.svg" alt="search_icon"></a>
+                </li>
+
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </section>
+
+  
+
+    <div style="margin-left: 50px;">
+        <div class="row align-items-start">
+          <div class="col" width="30%">
+            <h1 id="Store_finderTXT">STORE FINDER</h1>
+            <a href="#"><button id="mylocation_btn">USE MY LOCATION</button></a>
+            <p id="orTXT">------------------&nbsp; OR &nbsp;------------------</p>
+            <a href="#"><button id="zipCity_btn" >ZIP CODE, CITY, STATE</button></a>
+            <p class="dashedLine">-------------------------------------------</p>
+
+            <!--Restaurant Address Detail DIV that are shown-->
+            <div>
+              <p style="margin-top: -20px;"><a href="#" class="costaVida_Restaurant_name">CALGARY - ROYAL<br>OAK</a></p>
+              <p class="rest_time" style="margin-top: -15px;">Open till 9:00 pm</p>
+              <address class="rest_address">2118-8650 112th Avenue NW<br>
+                Calgary, AB T3R 0R5</address>
+              <p><a href="tel:403.460.7914" class="rest_contact">PHONE: 403.460.7914</a></p>
+              <a href="#"><button class="rest_OrderBTN">ORDER NOW</button></a>
+
+              <p class="dashedLine">-------------------------------------------</p>
+            </div>
+
+            <div>
+              <p style="margin-top: -20px;"><a href="#" class="costaVida_Restaurant_name">CALGARY -<br> SOUTHLAND</a></p>
+              <p class="rest_time" style="margin-top: -15px;">Open till 9:00 pm</p>
+              <address class="rest_address">9737 Macleod Trail Southwest Unit 640<br>
+                Calgary, AB T2J OP6</address>
+              <p><a href="tel:403.460.7914" class="rest_contact">PHONE: 587.352.0706</a></p>
+              <a href="#"><button class="rest_OrderBTN">ORDER NOW</button></a>
+
+              <p class="dashedLine">-------------------------------------------</p>
+            </div>
+
+            <div>
+              <p style="margin-top: -20px;"><a href="#" class="costaVida_Restaurant_name">CALGARY - 130TH<br> AVE.</a></p>
+              <p class="rest_time" style="margin-top: -15px;">Open till 9:00 pm</p>
+              <address class="rest_address">503-4700 130th Ave SE<br>
+                Calgary, AB T2Z 4E7</address>
+              <p><a href="tel:403.460.7914" class="rest_contact">PHONE: 403.668.5398</a></p>
+              <a href="#"><button class="rest_OrderBTN">ORDER NOW</button></a>
+
+              <p class="dashedLine">-------------------------------------------</p>
+            </div>
+
+            <button style="border: none; background-color:white;"><h2 id="showMOre_expand">+ Show More Locations</h2></button>
+
+            <!--Restaurant Address Detail HIDDEN DIV-->
+            <section id="Rest_addressDetails_Hidden" style="display: none;">
+              <div>
+                <p style="margin-top: -20px;"><a href="#" class="costaVida_Restaurant_name">KALISPELL -<br> PERMANENTLY<br> CLOSED</a></p>
+                <p class="rest_time" style="margin-top: -15px;">Closed</p>
+                <address class="rest_address">2286 Highway 93, Suite 101<br>
+                  Kalispell, MT 59901</address>
+                <p><a href="tel:403.460.7914" class="rest_contact">PHONE: 406.314.4381</a></p>
+                <a href="#"><button class="rest_OrderBTN">ORDER NOW</button></a>
+  
+                <p class="dashedLine">-------------------------------------------</p>
+              </div>
+
+              <div>
+                <p style="margin-top: -20px;"><a href="#" class="costaVida_Restaurant_name">SPOKANE -<br> NEWPORT</a></p>
+                <p class="rest_time" style="margin-top: -15px;">Open till 8:00 pm</p>
+                <address class="rest_address">9412 N Newport Hwy<br>
+                  Spokane, WA 99218</address>
+                <p><a href="tel:403.460.7914" class="rest_contact">PHONE: 509.315.8710</a></p>
+                <a href="#"><button class="rest_OrderBTN">ORDER NOW</button></a>
+                <br>
+                <a href="#"><button class="rest_OrderBTN" style="margin-top: 10px; padding:15px 55px;">CATERING</button></a>
+  
+                <p class="dashedLine">-------------------------------------------</p>
+              </div>
+
+              <div>
+                <p style="margin-top: -20px;"><a href="#" class="costaVida_Restaurant_name">RICHLAND -<br> QUEENSGATE</a></p>
+                <p class="rest_time" style="margin-top: -15px;">Open till 10:00 pm</p>
+                <address class="rest_address">3015 Duportail Street STE A<br>
+                  Richland, WA 99352</address>
+                <p><a href="tel:403.460.7914" class="rest_contact">PHONE:509.783.0543</a></p>
+                <a href="#"><button class="rest_OrderBTN">ORDER NOW</button></a>
+                <br>
+                <a href="#"><button class="rest_OrderBTN" style="margin-top: 10px; padding:15px 55px;">CATERING</button></a>
+  
+                <p class="dashedLine">-------------------------------------------</p>
+              </div>
+            </section>    <!--Hidden div ENDs-->
+
+
+
+            
+            
+
+            
+
+
+          </div> <!--COL 1 END-->
+          
+
+          <div class="col" width="70%" style="margin-right: 60px;" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d43035567.437925816!2d-135.68297947430707!3d48.82611748674099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCosta%20Vida!5e0!3m2!1sen!2sin!4v1689320594398!5m2!1sen!2sin" width="1090" height="790" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          
+        </div>
+      </div>
+
+    
+
+      
+      
+      <script>
+        const btn = document.getElementById('showMOre_expand');
+
+        btn.addEventListener('click', () => {
+          //hide button
+          btn.style.display = 'none';
+
+          // show div
+          const box = document.getElementById('Rest_addressDetails_Hidden');
+          box.style.display = 'block';
+        });
+
+      </script>
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+#top {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: solid 5px #80c6be;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #container_top {
+    margin-left: 1200px;
+  }
+  
+  .top_nav {
+    font-size: 16px;
+    text-decoration: none;
+    color: #4d4d4d;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+  }
+  
+  .top_nav:hover {
+    color: orange;
+  }
+  
+  #navbar {
+    width: 100%;
+    background-color: #ed7422;
+    height: 92px;
+  }
+  
+  .navbar-brand {
+    padding-right: 400px;
+  }
+  
+  .navbar-nav {
+    color: white;
+  }
+  
+  .nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .nav-item:hover {
+    background-color: white !important;
+  }
+  
+  #nav-item_catering:hover{
+    background-color: white;
+  
+  }
+  
+  #nav_item_searchbtn:hover{
+    background-color: #4d4d4d !important;
+  }
+
+  #Costa_giftCards_heading{
+    font-size: 90px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: #4d4d4d;
+    text-align: center;
+    background-color:#f5f5f5 !important;
+  }
+
+  .giftCards_btns{
+    font-size: 20px;
+    color: #727171;
+    padding: 15px 150px;
+    font-size: 25px;
+    margin-left: 530px;
+    margin-top: 20px;
+    border: 2px solid #727171;
+    font-weight: 500;
+    background-color: white;
+
+  }
+  .giftCards_btns:hover{
+    border: #ed7422 2px solid;
+    color: #ed7422;
+  }
+
+#search_TXT{
+  color: #727171;
+  font-size: 20px;
+}
+  

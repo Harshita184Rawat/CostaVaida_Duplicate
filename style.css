@@ -1,7 +1,3 @@
-body {
-  margin: 0px;
-}
-
 #top {
   width: 100%;
   background-color: #fff;
@@ -50,7 +46,16 @@ body {
 }
 
 .nav-item:hover {
+  background-color: white !important;
+}
+
+#nav-item_catering:hover{
   background-color: white;
+
+}
+
+#nav_item_searchbtn:hover{
+  background-color: #4d4d4d !important;
 }
 
 #img_Home_top {
@@ -75,6 +80,7 @@ body {
   background-color: #ed7422;
   color: white !important;
 }
+
 .menu_item:hover,
 .menu_itemlink:hover {
   background-color: #ed7422;
@@ -227,8 +233,9 @@ body {
 }
 
 #fast_pass {
-  background-color: red;
-  width: 100vw;
+  margin-top:150px;
+  background-color: #80c6be;
+  padding-top:40px;
 }
 
 #pickup_btn {
@@ -241,6 +248,91 @@ body {
 }
 
 #pickup_btndiv {
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-top: -60px;
+  padding-left: 240px;
 }
+
+
+#get_app{
+  font-size: 30px;
+  font-weight: 100;
+  color: #4d4d4d;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-bottom: 2px solid #ed7422 ;
+  padding-bottom: 15px;
+  width: 400px;
+}
+
+#receipt_line{
+  font-size: 90px;
+  color: #4d4d4d;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+
+#scan_line{
+  color: #4d4d4d;
+  font-weight: 100;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app_btn{
+  border: none;
+  border-radius: 2px;
+  margin-top: 40px;
+}
+
+.app_feature{
+  padding-right: 30px;
+  padding-right: 30px;
+  color:#ed7422;
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+#Fresh_section_l1{
+  color: #4d4d4d;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Fresh_section_l2{
+  color: #4d4d4d;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 550;
+
+}
+
+.Expand_block_img{
+  width: 300px;
+  transition: transform .2s;
+  
+}
+
+.Expand_block_img:hover{
+  transform: scale(1.2);
+}
+
+.Expand_block_heading{
+  color: #ed7422;
+}
+
+.Expand_block_txtDiv{
+  text-align: left !important; 
+}
+
+#Expand_btn{
+  color: #ed7422;
+  border: 3px solid #ed7422 ;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 200;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
